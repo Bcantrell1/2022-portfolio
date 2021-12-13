@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import styled from 'styled-components';
 import { Facebook, Github, Instagram } from '../../globals/SVGs';
@@ -38,10 +37,11 @@ const Socials = (props) => {
 				animate={{ scale: [0, 1, 1.5, 1] }}
 				transition={{ type: 'spring', duration: 1, delay: 1 }}
 			>
-				<NavLink
+				<a
 					style={{ color: 'inherit' }}
 					target="_blank"
-					to="https://github.com/Bcantrell1"
+					href="https://github.com/Bcantrell1"
+					rel="noreferrer"
 				>
 					<Github
 						width={25}
@@ -52,17 +52,18 @@ const Socials = (props) => {
 								: DarkTheme.body
 						}
 					/>
-				</NavLink>
+				</a>
 			</motion.div>
 			<motion.div
 				initial={{ transform: 'scale(0)' }}
 				animate={{ scale: [0, 1, 1.5, 1] }}
 				transition={{ type: 'spring', duration: 1, delay: 1.2 }}
 			>
-				<NavLink
+				<a
 					style={{ color: 'inherit' }}
 					target="_blank"
-					to="https://github.com/Bcantrell1"
+					href="https://www.instagram.com/trell546/"
+					rel="noreferrer"
 				>
 					<Instagram
 						width={25}
@@ -73,17 +74,18 @@ const Socials = (props) => {
 								: DarkTheme.body
 						}
 					/>
-				</NavLink>
+				</a>
 			</motion.div>
 			<motion.div
 				initial={{ transform: 'scale(0)' }}
 				animate={{ scale: [0, 1, 1.5, 1] }}
 				transition={{ type: 'spring', duration: 1, delay: 1.4 }}
 			>
-				<NavLink
+				<a
 					style={{ color: 'inherit' }}
 					target="_blank"
-					to="https://github.com/Bcantrell1"
+					href="https://www.facebook.com/profile.php?id=1431235861"
+					rel="noreferrer"
 				>
 					<Facebook
 						width={25}
@@ -94,7 +96,7 @@ const Socials = (props) => {
 								: DarkTheme.body
 						}
 					/>
-				</NavLink>
+				</a>
 			</motion.div>
 			<Line
 				color={props.theme}
