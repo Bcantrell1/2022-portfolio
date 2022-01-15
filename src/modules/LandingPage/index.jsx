@@ -30,8 +30,8 @@ const LandingPage = () => {
 				<Center click={click}>
 					<MountainBike
 						onClick={() => handleClicked()}
-						width={click ? 120 : 200}
-						height={click ? 120 : 200}
+						width={click ? 80 : 200}
+						height={click ? 80 : 200}
 						fill="currentColor"
 					/>
 					<span></span>

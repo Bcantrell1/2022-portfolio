@@ -50,7 +50,7 @@ export const InnerBox = styled.div`
 export const Text = styled.div`
 	font-size: calc(1em + 0.89vw);
 	color: ${(props) => props.theme.body};
-	padding: 1.8rem;
+	padding: 1rem 5rem 1rem 0.4rem;
 	cursor: pointer;
 
 	display: flex;

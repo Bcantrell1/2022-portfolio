@@ -43,7 +43,7 @@ export const BottomItems = styled.div`
 export const Center = styled.button`
 	position: absolute;
 	top: ${(props) => (props.click ? '85%' : '50%')};
-	left: ${(props) => (props.click ? '92%' : '50%')};
+	left: ${(props) => (props.click ? '82%' : '50%')};
 	transform: translate(-50%, -50%);
 	border: none;
 	outline: none;
